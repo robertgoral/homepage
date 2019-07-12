@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url('tenis2.jpg');
+    background: #fefefe;
+    color: #fff;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(156deg, rgba(2, 0, 36, 0.9500175070028011) 94%, rgba(117, 114, 12, 0.9780287114845938) 97%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 100%;
+    max-width: 600px;
+    margin: 32px auto;
+    padding-top: 100px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #1a936f;
+    text-decoration: none;
+}
+
+.site-header {
+    position: relative;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.navigation {
+    position: fixed;
+    padding: 50px;
+    width: 100%;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__item {
+    display: inline;
+    padding: 10px;
+}
+
+.navigation__link {
+    color: #1a936f;
+}
+
+.about {
+    position: relative;
+}
+
+.about_header {
+    color: #1460aa;
+    margin-bottom: 48px;
+}
+
+.about_link {
+    color: #1a936f
+}
+
+.about__paragraph {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.about__paragraph--color {
+    color: #ff6700;
+}
+
+.diary {
+    color: #1460aa;
+}
+
+.diary__header {
+    color: #1460aa;
+}
+
+.diary__paragraph {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.diary__section {}
+
+.diary__thirdheader {
+    color: #0496FF;
+}
+
+.diary__paragraph--color {
+    color: #ff6700;
+}
+
+.diary__paragraph--fontsize {
+    font-size: 20px;
+}
+
+.table {
+    width: 100%;
+}
