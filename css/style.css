@@ -38,6 +38,9 @@ body {
     color: #1a936f;
     text-decoration: none;
 }
+.header__title--red {
+    color: darkred;
+}
 
 .site-header {
     position: relative;
