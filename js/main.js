@@ -59,3 +59,12 @@ function hellovisitor (name,age) {
     console.log( `witaj ${name} masz ${age}`);
 }
 hellovisitor('radek', '29');
+
+const button = document.querySelector ('.header__button--js');
+console.log(button);
+
+button.addEventListener('click', (e) => {
+    const header = document.querySelector('.header__title--js');
+    header.innerHTML = 'Klik Klik';
+
+});
