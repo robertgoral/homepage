@@ -145,8 +145,19 @@ body {
         color: hotpink;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 640px) {
     .main {
         max-width: 900px;
+    }
+}
+@media (max-width: 640px) {
+    .navigation {
+        display: none;
+    }
+    .navigation__list {
+        flex-direction: column;
+    }
+    .navigation__item {
+        margin: 16px;
     }
 }

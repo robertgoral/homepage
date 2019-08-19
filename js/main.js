@@ -65,8 +65,9 @@ console.log(button);
 
 button.addEventListener('click', (e) => {
     const header = document.querySelector('.header__title--js');
-    //header.classList.add ("header__title--red");
-    if (header.classList.contains("header__title--red")); {
+    header.innerHTML = 'Klik Klik';
+    header.classList.toggle('header__title--red');
+    if (header.classList.contains('header__title--red')) {
         console.log('jest klasa');
     } else {
         console.log('brak klasy');
