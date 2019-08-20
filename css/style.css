@@ -55,6 +55,7 @@ body {
     padding: 50px;
     width: 100%;
     background: #fff;
+    z-index: 50;
 }
 
 .navigation__list {
@@ -94,7 +95,7 @@ body {
 }
 
 .about__paragraph--color {
-    color: #ff6700;
+    color: red;
 }
 
 .diary {
